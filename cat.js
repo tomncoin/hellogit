@@ -1,7 +1,7 @@
 function Cat(){
-
+    this.stomach = [];
 }
 
-function eat(){
-    
+Cat.prototype.eat = function(mouse){
+    this.stomach.push(mouse);
 }
