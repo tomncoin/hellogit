@@ -1,3 +1,7 @@
 function Cat(){
+
+}
+
+function eat(){
     
 }
